@@ -1,0 +1,2 @@
+awscli-local[ver1]
+terraform-local
