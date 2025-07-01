@@ -32,19 +32,14 @@ cd localstack/build
 
 3. Provision Infrastructure
 
-```bash
-cd localstack/build
-./deploy-localstack.sh
-```
-
-    You can provision the infrastructure using either Terraform (tflocal) or AWS CLI (awslocal):
+You can provision the infrastructure using either Terraform (tflocal) or AWS CLI (awslocal):
 
 - Option A: Using Terraform (tflocal)
 
     Navigate to the iac directory and execute:
 
     ```bash
-    cd localstack
+    cd localstack/iac
     ./deploy-tflocal.sh
     ```
 
@@ -56,10 +51,11 @@ cd localstack/build
 
     While still in the iac directory, run:
     ```bash
-    cd localstack/
+    cd localstack/iac
     ./deploy-awslocal.sh
     ```
 
+Notice that you can destroy the infrastructure using the provided destroy scripts.
 
 ### Completation Creteria
 
