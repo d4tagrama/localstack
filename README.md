@@ -61,6 +61,6 @@ Notice that you can destroy the infrastructure using the provided destroy script
 
 1. A docker-compose.yml that starts up LocalStack with debug mode enabled ([docker-compose](build/)).
 2. A Terraform configuration that creates the resources described in the task ([Terraform code](iac/))
-3. A shell script that invokes the awslocal commands to interact with the created cloud infrastructure, and returns the output ([tflocal](iac/deploy-awslocal.sh), [awslocal](iac/deploy-iac.sh)).
+3. A shell script that invokes the awslocal commands to interact with the created cloud infrastructure, and returns the output ([tflocal](iac/deploy-awslocal.sh), [awslocal](iac/deploy-tflocal.sh)).
 4. A log file containing the debug log output of LocalStack after applying the Terraform
 configuration and running the shell script [logfile](build/localstack.log).
