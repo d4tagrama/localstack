@@ -8,6 +8,8 @@ This Terraform configuration performs the following:
 - Creates an **SQS queue**
 - Sets up an **S3 event notification** that sends a message to the SQS queue when a file is uploaded to the bucket
 
+Note: This is developed to run on Docker Compose v2, and LocalStack needs to be installed on the client PC.
+
 ### Project Overview
 
 The included `docker-compose.yml` file spins up two containers:
