@@ -1,4 +1,4 @@
-# TSE - Technical Take-Home Challenge
+# LocalStack Example
 
 ## Task 1: Terraform Deployments on LocalStack
 
